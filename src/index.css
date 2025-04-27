@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn,
+.btn-outline {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+
+.input {
+  margin-top: 0.25rem;
+}

@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Fields */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #004c99;
+}
+
+/* Success Message */
+.success-box {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #c3e6cb;
+}
+
+/* Error Message */
+.error-box {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #f5c6cb;
+}
+
+/* Error Text Below Inputs */
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Toggle Links (Login/Signup) */
+.toggle-container {
+  margin-top: 20px;
+}
+
+.toggle-link {
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .input, .submit-btn {
+    padding: 10px;
+  }
+}

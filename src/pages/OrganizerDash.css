@@ -1,0 +1,102 @@
+/* Container for the entire dashboard */
+.dashboard-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+  }
+  
+  /* Styling for the Create Event form */
+  .create-event-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .create-event-container h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-event-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-event-container input,
+  .create-event-container select {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-event-container button {
+    padding: 12px;
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-event-container button:hover {
+    background-color: #004c99;
+  }
+  
+  /* Container for statistics card */
+  .statistics-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for event list cards */
+  .event-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Modal styling */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .modal button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .modal button:hover {
+    background-color: #004c99;
+  }
+  
