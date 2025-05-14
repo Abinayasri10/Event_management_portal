@@ -1,0 +1,34 @@
+.ticket-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.ticket-form input,
+.ticket-form select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.ticket-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ticket-form button:hover {
+  background-color: #0072ff;
+}

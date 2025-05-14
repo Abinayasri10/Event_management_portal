@@ -1,0 +1,216 @@
+/* Event Calendar Container */
+.eventcalendar-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  /* Navbar */
+  nav {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it span the full width */
+    background-color: #091068; /* Background color */
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(245, 244, 244, 0.1); /* Optional shadow for depth */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a.active {
+    text-decoration: underline;
+  }
+  
+  /* Calendar Section */
+  .react-calendar {
+    margin: 0 auto; /* Center the calendar */
+    border: 1px solid #050250;
+    border-radius: 8px;
+    padding: 20px; /* Increase padding for a larger appearance */
+    width: 80%; /* Make the calendar take up 80% of the container width */
+    max-width: 1000px; /* Limit the maximum width */
+    font-size: 1.2rem; /* Increase font size for better readability */
+    margin-top: 200px;
+  }
+  
+  .react-calendar__tile {
+    background-color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    height: 60px; /* Increase tile height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #25c2c2;
+    color: #3f24ac;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #462ab4;
+    color: #fff;
+  }
+  .calendar-section{
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  /* Event Input */
+  .event-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .event-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .event-input button {
+    padding: 10px 20px;
+    background-color: #37B7C3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-input button:hover {
+    background-color: #088395;
+  }
+  
+  /* Events List */
+  .events-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .events-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .events-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #2e33bf;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-event-btn {
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  .edit-event-btn {
+    margin-left: 10px;
+    background-color: #f0af2c;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+  .delete-event-btn:hover {
+    background-color: #c82333;
+  }
+  
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #071952;
+    color: #fbf8f8;
+    text-align: center;
+  }
+  /* Registered Events Section */
+.registered-events {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registered-events h3 {
+  color: #333; /* Darker font color for readability */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registered-events ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.registered-events li {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.registered-events li strong {
+  color: #091068; /* Highlighted color for event names */
+  font-size: 18px;
+}
+
+.registered-events li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.registered-events li p {
+  margin: 5px 0;
+}
+
+.registered-events li span {
+  font-weight: bold;
+  color: #333;
+}

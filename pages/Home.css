@@ -1,0 +1,111 @@
+
+ .home-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-top: 380px;
+    width: 100%;
+  }
+ 
+.home-container nav h2 {
+  color: white;
+  font-size: 24px; 
+  font-weight: bold;
+  margin: 0;
+}
+  
+  /* Hero section styling */
+  .hero-section {
+    background-color: #0da6b7;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 50px 0;
+    margin-top:70px;
+    width: 100%;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 8px;
+  }
+  
+
+  
+  /* Featured events section */
+  .featured-events {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .featured-events h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .event-display {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .event-show {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-show img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .event-show h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .event-show p {
+    color: #666;
+  }
+  
+  /* About Us section */
+  .about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
