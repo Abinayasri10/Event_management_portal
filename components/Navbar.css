@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+/* Navbar overall */
+.navbar {
+  background-color: #071952; /* Dark blue background */
+  color:#071952;
+  padding: 1rem 2rem; /* Add padding for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  justify-content: space-between; /* Space out title and links */
+  align-items: center; /* Align items vertically */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+/* Organizer Dashboard title */
+.navbar-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #4120c5; /* Light text for contrast */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-title:hover {
+  color: #37B7C3; /* Teal hover effect */
+}
+
+/* Navigation links container */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem; /* Add spacing between links */
+}
+
+/* Each individual link */
+.navbar-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #140b94; /* Light text for contrast */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ef2cd5; /* Teal hover effect */
+  text-decoration: underline;
+}
+
+/* Active link (optional if you want to style the active route) */
+.navbar-link.active {
+  color: #37B7C3; /* Teal for active link */
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack title and links vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem; /* Add spacing between links */
+    width: 100%; /* Full width for links */
+    margin-top: 1rem; /* Add spacing below the title */
+  }
+
+  .navbar-link {
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+  }
+}

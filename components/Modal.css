@@ -1,0 +1,13 @@
+.modal-close-btn {
+    background: transparent; /* Transparent background */
+    border: none; /* Remove default button border */
+    font-size: 1.5rem; /* Increase size for better visibility */
+    font-weight: bold; /* Make the icon bold */
+    color: #333; /* Dark color for the icon */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .modal-close-btn:hover {
+    color: #ff0000; /* Change color to red on hover */
+  }
